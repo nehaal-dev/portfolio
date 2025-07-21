@@ -1,0 +1,312 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+
+.profile-glow {
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 6, 10, 0.812);
+}
+
+/* Project Card Animation */
+.transition-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.transition-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  border: 1px solid #0d6efd;
+}
+
+/* Optional: Project Titles */
+.project-card h5 {
+  color: #0d6efd;
+}
+
+/* Optional: Section Animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* projects css  */
+/* Project Cards Hover Animation */
+.transition-card {
+  transition: all 0.4s ease-in-out;
+}
+
+.transition-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(220, 53, 69, 0.4);
+  border: 2px solid crimson;
+}
+
+/* Image styling inside card */
+.project-card img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+/* Tech icon color override (optional) */
+.project-card i {
+  transition: transform 0.3s ease;
+}
+.project-card i:hover {
+  transform: scale(1.2);
+}
+
+/* 🔥 Project Card Advanced Hover */
+.project-card {
+  transition: all 0.4s ease;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+  color: #000;
+}
+
+.project-card img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+
+/* Card Content Animation */
+.project-card:hover {
+  background-color: crimson !important;
+  color: #fff !important;
+  transform: scale(1.03);
+  box-shadow: 0 20px 40px rgba(220, 53, 69, 0.6);
+  border: none;
+}
+
+/* Image Zoom on Hover */
+.project-card:hover img {
+  transform: scale(1.1);
+}
+
+/* Change icon and text color inside card */
+.project-card:hover i,
+.project-card:hover h5,
+.project-card:hover p,
+.project-card:hover .btn {
+  color: white !important;
+}
+
+/* Title animation */
+.project-card h5 {
+  transition: transform 0.3s ease;
+}
+.project-card:hover h5 {
+  transform: scale(1.1);
+}
+
+/* Button style on hover */
+.project-card .btn {
+  transition: background 0.3s, color 0.3s, border 0.3s;
+}
+.project-card .btn:hover {
+  background-color: white;
+  color: crimson;
+  border-color: white;
+}
+
+/* Optional: smooth icons */
+.project-card i {
+  transition: transform 0.3s ease;
+}
+.project-card i:hover {
+  transform: scale(1.2);
+}
+
+/* contact form */
+/* 🔥 Contact Form Reveal Animation */
+#contact .container {
+  animation: slideUp 1s ease forwards;
+  opacity: 0;
+}
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 🔲 Input + Textarea Styling */
+#contact input,
+#contact textarea {
+  background-color: white;
+  border: 1px solid #555;
+  color: #fff;
+}
+#contact input::placeholder,
+#contact textarea::placeholder {
+  color: #aaa;
+}
+
+/* 🔴 Input Focus Glow */
+#contact input:focus,
+#contact textarea:focus {
+  border-color: crimson;
+  box-shadow: 0 0 8px crimson;
+  background-color: #262626;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+/* 🧠 Label Highlight */
+#contact .form-label {
+  color: #ddd;
+  transition: 0.3s ease;
+}
+#contact input:focus + .form-label,
+#contact textarea:focus + .form-label {
+  color: crimson;
+}
+
+/* 🚀 Submit Button Glow Effect */
+#contact button[type="submit"] {
+  background-color: crimson;
+  border: none;
+  color: #fff;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+#contact button[type="submit"]:hover {
+  background-color: #b3003b;
+  transform: scale(1.03);
+  box-shadow: 0 0 15px crimson;
+}
+
+
+/* project card-dentist */
+.project-card ul {
+  margin-top: 10px;
+  padding-left: 18px;
+  list-style: disc;
+}
+
+.project-card ul li {
+  line-height: 1.5;
+}
+
+.project-card ul li::marker {
+  color: crimson;
+}
+/* 
+hero section  */
+.text-gradient {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* about me */
+ 
+
+/* experience */
+.experience-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+  border-left: 5px solid crimson;
+  
+}
+
+.icon-glow {
+  transition: all 0.3s ease;
+}
+
+.experience-card:hover .icon-glow {
+  color: crimson !important;
+  text-shadow: 0 0 8px crimson;
+}
+
+
+/* contact form */
+.btn-danger {
+  transition: all 0.3s ease-in-out;
+}
+.btn-danger:hover {
+  background-color: crimson;
+  transform: scale(1.03);
+}
+
+/* wattsapp float */
+/* WhatsApp Floating Button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  left:  25px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: pulse-glow 2s infinite;
+  z-index: 9999;
+}
+
+@keyframes pulse-glow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+
+.nav-link.active {
+  color: #ffc107 !important; /* Yellow highlight */
+  font-weight: 600;
+  border-bottom: 2px solid #ffc107;
+}
+
+
+
+
+
+
+
+body {
+  /* Don't use padding-top unless absolutely needed */
+  padding-top: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 280px;  
+} 
+
+@media (min-width: 768px) {
+  .col-md-6{
+    padding-left: 0 !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
