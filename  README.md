@@ -35,9 +35,9 @@ I specialize in:
 
 ---
 
-## 💼 Featured Project
+## 💼 Featured Projects
 
-### 🧾 Invoice Portal — SaaS Invoice Management System
+### 🧾 1. Invoice Portal — SaaS Invoice Management System
 A production-ready SaaS application built with Laravel 11.
 
 **Live:** [https://web-production-15ad2e.up.railway.app](https://web-production-15ad2e.up.railway.app)
@@ -51,9 +51,45 @@ A production-ready SaaS application built with Laravel 11.
 - REST API with Sanctum authentication
 - Subscription Plans (Free/Pro)
 - Client Portal with role-based access
+- Search & Filter on invoices
 - Deployed on Railway.app with MySQL
 
 **Tech:** Laravel 11, PHP 8.3, MySQL, Tailwind CSS, Stripe, Gmail SMTP
+
+---
+
+### 👑 2. KidsCrown.in — Dental E-Commerce Web Application
+A full-featured e-commerce web application for a dental products company specializing in stainless steel crowns for children's teeth (deciduous teeth).
+
+**Live:** [https://kidscrown.in](https://kidscrown.in)
+
+**Key Features:**
+- Product catalog with categories (Crowns, Resources, Downloads)
+- Shopping cart and order management
+- Doctor/user registration and login system
+- Order placement — dentists order crowns for child patients
+- Product comparison system
+- Contact and inquiry management
+- Admin panel for product and order management
+
+**Tech:** Core PHP, MySQL, Bootstrap, JavaScript, HTML5, CSS3
+
+---
+
+### 🏢 3. SetuSpace.com — Coworking Space Booking Website
+A responsive website for a coworking space provider in Noida, with space booking and inquiry features.
+
+**Live:** [https://setuspace.com](https://setuspace.com)
+
+**Key Features:**
+- Responsive landing page with modern UI
+- Space booking system (Hot Desk, Day Pass, Meeting Room)
+- Contact form with email handling (PHP Mailer)
+- Gallery, testimonials, blog sections
+- Pricing and FAQ pages
+- Location-based space finder
+
+**Tech:** HTML5, CSS3, JavaScript, PHP, Email Handling
 
 ---
 
