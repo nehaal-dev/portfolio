@@ -314,6 +314,6 @@ html {
 
 @media (min-width: 768px) {
   #about .col-md-6:last-child {
-    padding-left: 2rem !important;
+    padding-left: 3.5rem !important;
   }
 }
