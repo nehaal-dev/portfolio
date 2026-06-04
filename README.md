@@ -1,6 +1,7 @@
 # 🚀 Nehaal Khan — Full Stack PHP Laravel Developer
+ 
+<img width="1470" height="810" alt="Screenshot 2026-06-04 at 2 20 03 PM" src="https://github.com/user-attachments/assets/1e3d7f7d-38ac-4065-ab1f-25b90f8b57b3" />
 
-![Portfolio Banner](assets/profile.png)
 
 > A fully responsive **Developer Portfolio Website** built with HTML5, CSS3, Bootstrap 5, JavaScript, and Animate.css.
 
