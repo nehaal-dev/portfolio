@@ -1,6 +1,6 @@
 # 🚀 Nehaal Khan — Full Stack PHP Laravel Developer
- 
- ![Uploading Screenshot 2026-06-04 at 2.22.22 PM.png…]()
+ <img width="1470" height="597" alt="Screenshot 2026-06-04 at 2 22 22 PM" src="https://github.com/user-attachments/assets/b44f45d3-aa1b-44fc-acd6-1d1b469ed665" />
+
 
 
 
