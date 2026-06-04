@@ -101,9 +101,9 @@ A responsive website for a coworking space provider in Noida, with space booking
 
 ---
 
-## 📸 Screenshot
+ 
 
-![Screenshot](assets/profile.png)
+ 
 
 ---
 
